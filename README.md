@@ -1,2 +1,2 @@
-# Star-Wars-Dev
+# Star-Wars
 API do Star Wars
