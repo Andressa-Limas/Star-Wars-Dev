@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 function App() {
+  const API_URL = process.env.REACT_APP_API_URL;
   const [filmes, setFilmes] = useState([]);
   const [pesquisa, setPesquisa] = useState("");
   const [ordem, setOrdem] = useState("1");
@@ -10,11 +11,11 @@ function App() {
 
   useEffect(() => {
     const carregarFilmesComPersonagens = async () => {
-      const { data: listaFilmes } = await axios.get("http://localhost:5000/filmes");
+      const { data: listaFilmes } = await axios.get(`${API_URL}/filmes`);
       const filmesComPersonagens = await Promise.all(
         listaFilmes.map(async (filme) => {
           const { data: personagens } = await axios.get(
-            `http://localhost:5000/filmes/${filme.episode_id}/personagens`
+            `${API_URL}/filmes/${filme.episode_id}/personagens`
           );
           return { ...filme, personagens };
         })
