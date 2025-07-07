@@ -1,3 +1,26 @@
+# 🌌 Star Wars Dev – Documentação de Acesso
+
+Bem-vindo(a)! Aqui você encontrará todas as instruções para acessar o front-end e as rotas da API do projeto **Star Wars Dev**.
+
+---
+
+## 🔁 API REST – Back-end em Python
+
+A API está pública e pode ser acessada por qualquer ferramenta de requisição HTTP (como Postman, Insomnia ou diretamente no navegador para `GET`).
+
+> **URL base da API:**  
+🔗 [https://apidocs/](https://star-wars-dev-663524319048.us-central1.run.app/apidocs/)
+
+## 🌐 Aplicação Front-end
+
+A interface está disponível no seguinte endereço:
+
+🔗 [https://filmes](https://hallowed-pipe-465219-u2.web.app/filmes)
+
+Essa aplicação consome a API desenvolvida em Python e exibe os dados em tempo real.
+
+---
+
 # 🚀 Projeto Fullstack – Python (Back-end) + React (Front-end)
 
 Este projeto é dividido em duas partes:
