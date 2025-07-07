@@ -7,13 +7,12 @@ Bem-vindo(a)! Aqui você encontrará todas as instruções para acessar o front-
 ## 🔁 API REST – Back-end em Python
 
 A API está pública e pode ser acessada por qualquer ferramenta de requisição HTTP (como Postman, Insomnia ou diretamente no navegador para `GET`).
-
 > **URL base da API:**  
 🔗 [https://apidocs/](https://star-wars-dev-663524319048.us-central1.run.app/apidocs/)
 
 ## 🌐 Aplicação Front-end
 
-A interface está disponível no seguinte endereço:
+Espere a API do back carregar completamente e mostrar os endpoints e após isso rode a API do front. A interface está disponível no seguinte endereço:
 
 🔗 [https://filmes](https://hallowed-pipe-465219-u2.web.app/filmes)
 
