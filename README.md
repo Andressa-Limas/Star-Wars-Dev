@@ -65,7 +65,16 @@ pip install -r ../requirements.txt
 python app.py
 ```
 ---
+## 🧪 Rodar os testes (Python)
 
+Certifique-se de estar com o ambiente virtual ativado e dentro da pasta `back`.
+
+### 📌 Comando para rodar o arquivo específico de teste,`test_app.py`:
+
+```bash
+python test_app.py
+```
+---
 ## 💻 3. Rodar o Front-end (React)
 
 ### a) Em outro terminal, acessar a pasta `front`
